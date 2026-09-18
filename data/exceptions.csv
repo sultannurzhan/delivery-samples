@@ -1,0 +1,6 @@
+source_id,normalized_key,reason_codes,conflicting_fields,item_code_raw,item_name_raw,color_raw,quantity_raw,checked_date_raw
+R005,KIT-004,CONFLICTING_KEY,quantity,KIT-004,Felt Shapes,green,8,2026-09-17
+R006,KIT-004,CONFLICTING_KEY,quantity, kit-004 ,Felt Shapes,Green,10,2026-09-17
+R007,KIT-005,INVALID_QUANTITY,,KIT-005,Cardboard Tube,kraft,ten,2026-09-17
+R008,KIT-006,AMBIGUOUS_DATE,,KIT-006,Sticker Sheet,multicolor,5,09/10/2026
+R009,KIT-007,INVALID_DATE,,KIT-007,Cotton Cord,white,7,2026-02-30

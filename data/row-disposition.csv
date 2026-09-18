@@ -1,0 +1,11 @@
+source_id,disposition,destination,reason
+R001,kept,cleaned.csv:CLEAN-001,Validated under the documented rules
+R002,duplicate_collapsed,cleaned.csv:CLEAN-001,Normalized duplicate; all source IDs retained
+R003,kept,cleaned.csv:CLEAN-002,Validated under the documented rules
+R004,kept,cleaned.csv:CLEAN-003,Validated under the documented rules
+R005,quarantined,exceptions.csv:R005,CONFLICTING_KEY
+R006,quarantined,exceptions.csv:R006,CONFLICTING_KEY
+R007,quarantined,exceptions.csv:R007,INVALID_QUANTITY
+R008,quarantined,exceptions.csv:R008,AMBIGUOUS_DATE
+R009,quarantined,exceptions.csv:R009,INVALID_DATE
+R010,kept,cleaned.csv:CLEAN-004,Validated under the documented rules

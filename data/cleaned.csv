@@ -1,0 +1,5 @@
+output_id,source_ids,item_code,item_name,color,quantity,quantity_state,checked_date
+CLEAN-001,R001|R002,KIT-001,Paper Kite Kit,blue,12,present,2026-09-15
+CLEAN-002,R003,KIT-002,Ribbon Set,red,0,present,2026-09-16
+CLEAN-003,R004,KIT-003,Wooden Spool,natural,,missing,2026-09-16
+CLEAN-004,R010,KIT-008,Envelope Pack,ivory,4,present,2026-09-18

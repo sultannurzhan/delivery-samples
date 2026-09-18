@@ -1,0 +1,24 @@
+{
+  "sample": "Original synthetic demonstration; not client work",
+  "input_rows": 10,
+  "cleaned_records": 4,
+  "source_rows_represented_in_cleaned": 5,
+  "duplicate_rows_collapsed": 1,
+  "quarantined_rows": 5,
+  "unaccounted_source_rows": 0,
+  "checks_passed": [
+    "All 10 source IDs accounted for exactly once",
+    "Normalized duplicate collapsed with both IDs retained",
+    "Missing quantity stays blank and explicit zero stays zero",
+    "Both conflicting records quarantined with raw values",
+    "Invalid quantity, ambiguous date, and impossible date flagged",
+    "Results independent of input row order",
+    "Same-key missing versus zero quarantined as a conflict",
+    "Entire key held when a sibling row is invalid",
+    "Negative, decimal, grouped, scientific, and NaN quantities rejected",
+    "Leap-year, strict ISO format, and missing-date boundaries checked",
+    "Duplicate source IDs rejected before output",
+    "Exported CSV round-trip verified; source file unchanged"
+  ],
+  "input_sha256": "3c5a0e0040bba3f8ec48ab735c464071ca099c545b7f23feaadcc02966a0f450"
+}
