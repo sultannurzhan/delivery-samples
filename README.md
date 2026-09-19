@@ -25,3 +25,15 @@ The [original v1 file](epub/the-smallest-waiting-room.epub) and [its QA record](
 Agree the input, output, acceptance checks, permitted tools and data handling before production. Preserve uncertainty instead of inventing values. Deliver a reproducible result and a concise handover.
 
 No client code, manuscripts, credentials or personal datasets are included here. Commercial scope, price, schedule and terms are agreed separately; these examples do not establish a booking or service agreement.
+
+## Enquire about a small paid task
+
+[Email Sultan Takibay](mailto:takibaysultan@gmail.com) with the problem, input/output format, approximate size and desired deadline. A short description is enough initially; please keep credentials and confidential files out of the first message.
+
+Examples of proposed pilot scopes:
+
+- **CSV preparation — US$125:** one non-personal file, up to 500 rows and 15 columns, agreed cleanup rules, clean output, exceptions/reconciliation log, a rerunnable script and one correction round.
+- **Text-only EPUB — US$60 up to 7,500 words, or US$100 up to 15,000 words:** clean English prose, linked contents, metadata, validation evidence and one correction round. Reader-specific checks and any complex content need separate scoping.
+- **Software repair or technical validation:** one reproducible defect or behavior, with the deliverable and fixed price agreed after reviewing the brief. A typical API/import repair pilot is proposed at US$150.
+
+Based in South Korea (UTC+9). AI assistance is part of this workflow and is disclosed; permitted tools and data handling are agreed for each assignment. These are proposals, not automatic bookings. Work starts only after written agreement on scope, acceptance criteria, price, deadline, revisions and payment terms.
