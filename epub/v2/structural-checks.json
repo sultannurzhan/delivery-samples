@@ -1,0 +1,20 @@
+{
+  "file": "the-smallest-waiting-room-v2.epub",
+  "bytes": 5807,
+  "body_word_count": 517,
+  "chapters": 3,
+  "sha256": "7b0d58532ba1142495ec5b887d937a66b1f70b63f374dd5b7859dc427779a264",
+  "checked_at_utc": "2026-09-19T11:42:17Z",
+  "checks": [
+    "ZIP CRC and unique entries: PASS",
+    "mimetype is first, uncompressed, exact bytes, no extra field: PASS",
+    "XML parsing of 7 documents: PASS",
+    "Container rootfile and complete manifest resource coverage: PASS",
+    "Spine identifiers and logical reading order: PASS",
+    "EPUB navigation document and four TOC destinations: PASS",
+    "All 12 content links/styles resolve, including fragments; no external resources or scripts: PASS",
+    "Required metadata, creator, and modification time: PASS",
+    "Three chapters, approximately 500 words, EPUB attachment below 100 kB: PASS"
+  ],
+  "scope": "Independent structural checks; EPUBCheck results are recorded separately."
+}

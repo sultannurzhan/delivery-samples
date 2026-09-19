@@ -12,11 +12,13 @@ The Python script uses only the standard library. Run `python data/cleanup.py` t
 
 ## Reflowable EPUB production
 
-[Download the EPUB](epub/the-smallest-waiting-room.epub) · [Read the original manuscript](epub/manuscript.md) · [Validation note](epub/QA-note.md)
+[Download the corrected EPUB v2](epub/v2/the-smallest-waiting-room-v2.epub) · [Read the original manuscript](epub/manuscript.md) · [Validation note](epub/v2/QA-note.md)
 
 A three-chapter, 517-word original fictional sample. EPUBCheck 5.4.0 reported zero fatal errors, errors or warnings. Independent checks cover package structure, metadata, navigation and all content links. This is a technical formatting example, not an editorial portfolio or accessibility certification.
 
-Dedicated ebook-reader, screen-reader and cross-device tests have not been completed. Those checks must be scoped for a real publication.
+Version 2 corrects contents-list numbering and hidden-landmarks display. All ten pages passed visual review in MuPDF 1.28.2 at phone and tablet layout sizes, with exact visible-text preservation. One engine warning remains documented. Dedicated ebook-reader, screen-reader and physical-device tests have not been completed; those checks must be scoped for a real publication.
+
+The [original v1 file](epub/the-smallest-waiting-room.epub) and [its QA record](epub/QA-note.md) are preserved.
 
 ## Working approach
 
