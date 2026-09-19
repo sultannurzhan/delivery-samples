@@ -39,3 +39,7 @@ Run `python cleanup.py` with Python 3.9 or later, without optimization flags. On
 Assertions cover source-row reconciliation, duplicate lineage, both conflict records, blank versus zero, invalid numerics, ambiguous/impossible dates, leap-year boundaries, invalid siblings under the same key, duplicate source IDs, input-order independence, and saved CSV round-trips. The ZIP contains only this note, the four CSVs, the script, and verification evidence.
 
 These are explicit demo rules. A real assignment would first confirm the customer's record key, permitted formats, and missing-data policy. Quarantined rows require a source correction or a confirmed rule before they can enter the cleaned output. This sample does not measure performance on large files.
+
+## Discuss a small assignment
+
+See the [service scopes and enquiry contact](https://github.com/sultannurzhan/delivery-samples). A brief description of your file and the result you need is enough for an initial fit check.
