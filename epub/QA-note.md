@@ -21,3 +21,9 @@ java -jar epubcheck.jar the-smallest-waiting-room.epub
 ## Limits
 
 This does not establish store acceptance, accessibility certification or compatibility with specific reading systems. Dedicated ebook-reader, screen-reader and cross-device tests have not been performed. Those checks need explicit scoping for a real publication.
+
+## Additional renderer diagnostic — 19 September 2026
+
+The unchanged EPUB was rendered with PyMuPDF/MuPDF 1.28.2 at 390×700 and 768×1024 layout sizes. All ten generated page images were inspected. The contents page shows duplicate list numbering and exposes the landmarks navigation in this engine. The engine also emits `unknown epub version: 3.0` despite the separate EPUBCheck pass. This is a known rendering limitation of this sample/engine combination, not a clean visual pass. The other page text was legible and within the page bounds.
+
+This single-engine diagnostic does not establish physical-device compatibility, Kindle/Kobo behavior, or accessibility compliance. Resolve navigation presentation and agree target-reader testing before any production acceptance.
